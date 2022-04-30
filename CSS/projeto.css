@@ -4,6 +4,14 @@
   --cor-destaque: #304050;
 }
 
+@media (prefers-ccolor-scheme: dark) {
+  :root {
+    --cor-enfase: #ffd369;
+    --cor-fundo: #141e2c;
+    --cor-destaque: #313c45;
+  }
+}
+
 .projeto {
   background: linear-gradient(
     to right,

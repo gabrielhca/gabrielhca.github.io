@@ -7,6 +7,17 @@
   --cor-bg: #edf1f5;
 }
 
+@media (prefers-ccolor-scheme: dark) {
+  :root {
+    --cor-enfase: #ffd369;
+    --cor-fundo: #141e2c;
+    --cor-destaque: #313c45;
+    --cor-texto: #f0f4f7;
+    --cor-line: #58646f;
+    --cor-bg: #1b2534;
+  }
+}
+
 .header {
   max-width: 1440px;
   padding: 50px 200px;

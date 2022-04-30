@@ -1,7 +1,15 @@
 :root {
   --cor-decora: #7f8792;
   --cor-texto: #5c6166;
-  --cor-bg: #EDF1F5;
+  --cor-bg: #edf1f5;
+}
+
+@media (prefers-ccolor-scheme: dark) {
+  :root {
+    --cor-decora: #dfebf7;
+    --cor-texto: #f0f4f7;
+    --cor-bg: #1b2534;
+  }
 }
 
 .experiencia {

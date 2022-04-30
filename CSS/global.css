@@ -17,12 +17,12 @@ body {
 @media (prefers-ccolor-scheme: dark) {
   :root {
     --cor-enfase: #ffd369;
-    --cor-fundo: #141E2C;
-    --cor-destaque: #313C45;
-    --cor-decora: #DFEBF7;
-    --cor-texto: #F0F4F7;
-    --cor-line: #58646F;
-    --cor-bg: #1B2534;
+    --cor-fundo: #141e2c;
+    --cor-destaque: #313c45;
+    --cor-decora: #dfebf7;
+    --cor-texto: #f0f4f7;
+    --cor-line: #58646f;
+    --cor-bg: #1b2534;
   }
 }
 

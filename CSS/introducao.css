@@ -4,6 +4,14 @@
   --cor-texto: #5c6166;
 }
 
+@media (prefers-ccolor-scheme: dark) {
+  :root {
+    --cor-destaque: #313c45;
+    --cor-decora: #dfebf7;
+    --cor-texto: #f0f4f7;
+  }
+}
+
 .introducao {
   max-width: 1440px;
   padding: 0px 200px;
@@ -16,7 +24,7 @@
 .introducao h1 {
   font-size: 3.1rem;
   line-height: 70px;
-  color: var(--cor-destaque);
+  color: var(--cor-texto);
   margin-bottom: 30px;
 }
 
