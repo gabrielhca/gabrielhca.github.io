@@ -4,7 +4,10 @@
   --cor-destaque: #304050;
   --cor-texto: #5c6166;
   --cor-line: #aeb5bb;
+  --cor-bg: #edf1f5;
 }
+
+
 
 .header {
   max-width: 1440px;
@@ -39,7 +42,7 @@
   color: var(--cor-texto);
   display: block;
   border-radius: 5px;
-  border: 2px solid var(--cor-fundo);
+  border: 2px solid var(--cor-bg);
 }
 
 .header a:hover {

@@ -45,6 +45,5 @@
 }
 
 .projeto-botão a:hover {
-  color: #ffe03a;
-  border-color: #ffe03a;
+  background: var(--cor-enfase);
 }

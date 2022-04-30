@@ -1,7 +1,7 @@
 :root {
   --cor-decora: #7f8792;
   --cor-texto: #5c6166;
-  --cor-line: #aeb5bb;
+  --cor-bg: #EDF1F5;
 }
 
 .experiencia {
@@ -29,7 +29,7 @@
   line-height: 40px;
   list-style: url("/img/circulo.svg");
   margin: 20px 0px;
-  background: var(--cor-line);
+  background: var(--cor-bg);
   border-radius: 5px;
   padding: 10px;
 }

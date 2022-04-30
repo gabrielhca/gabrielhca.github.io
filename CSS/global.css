@@ -11,6 +11,19 @@ body {
   --cor-decora: #7f8792;
   --cor-texto: #5c6166;
   --cor-line: #aeb5bb;
+  --cor-bg: #edf1f5;
+}
+
+@media (prefers-ccolor-scheme: dark) {
+  :root {
+    --cor-enfase: #ffd369;
+    --cor-fundo: #141E2C;
+    --cor-destaque: #313C45;
+    --cor-decora: #DFEBF7;
+    --cor-texto: #F0F4F7;
+    --cor-line: #58646F;
+    --cor-bg: #1B2534;
+  }
 }
 
 h1,
