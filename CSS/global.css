@@ -1,7 +1,16 @@
 body {
   font-family: "M PLUS 1", Arial, sans-serif;
   margin: 0px;
-  background: #fbfff9;
+  background: var(--cor-fundo);
+}
+
+:root {
+  --cor-enfase: #ffd369;
+  --cor-fundo: #f9f7f7;
+  --cor-destaque: #304050;
+  --cor-decora: #7f8792;
+  --cor-texto: #5c6166;
+  --cor-line: #aeb5bb;
 }
 
 h1,
@@ -22,12 +31,12 @@ img {
 }
 
 strong {
-  color: #8d9b66;
+  color: var(--cor-destaque);
 }
 
 .copyright ul {
   font-size: 1rem;
-  color: #60665c;
+  color: var(--cor-texto);
   text-align: center;
 }
 
@@ -38,7 +47,7 @@ strong {
   width: 41%;
   margin: 80px 0px;
   border: 0;
-  border-top: 2px solid #b3b89f;
+  border-top: 2px solid var(--cor-line);
 }
 .line3,
 .line4 {

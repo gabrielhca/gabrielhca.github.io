@@ -1,5 +1,10 @@
+:root {
+  --cor-fundo: #f9f7f7;
+  --cor-destaque: #304050;
+}
+
 .contato {
-  background: #2c3427;
+  background: var(--cor-destaque);
 }
 .contato-container {
   max-width: 1440px;
@@ -9,7 +14,7 @@
   grid-template-columns: 2fr 2fr 1fr 1fr;
   align-items: center;
   font-size: 1.5rem;
-  color: #fbfff9;
+  color: var(--cor-fundo);
 }
 .contato-container p {
   margin-right: 80px;
@@ -17,7 +22,7 @@
 .contato-container li,
 a {
   font-size: 1.2rem;
-  color: #fbfff9;
+  color: var(--cor-fundo);
   text-decoration: none;
   padding: 15px 5px;
 }

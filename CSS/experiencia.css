@@ -1,3 +1,9 @@
+:root {
+  --cor-decora: #7f8792;
+  --cor-texto: #5c6166;
+  --cor-line: #aeb5bb;
+}
+
 .experiencia {
   max-width: 1440px;
   padding: 0px 200px;
@@ -10,7 +16,7 @@
 
 .experiencia h1 {
   font-size: 3rem;
-  color: #2c3427;
+  color: var(--cor-decora);
   text-align: center;
 }
 
@@ -19,11 +25,11 @@
 }
 
 .experiencia-text li {
-  color: #60665c;
+  color: var(--cor-texto);
   line-height: 40px;
   list-style: url("/img/circulo.svg");
   margin: 20px 0px;
-  background: #f5faf2;
+  background: var(--cor-line);
   border-radius: 5px;
   padding: 10px;
 }

@@ -1,3 +1,9 @@
+:root {
+  --cor-destaque: #304050;
+  --cor-decora: #7f8792;
+  --cor-texto: #5c6166;
+}
+
 .introducao {
   max-width: 1440px;
   padding: 0px 200px;
@@ -10,7 +16,7 @@
 .introducao h1 {
   font-size: 3.1rem;
   line-height: 70px;
-  color: #2c3427;
+  color: var(--cor-destaque);
   margin-bottom: 30px;
 }
 
@@ -20,13 +26,13 @@
 
 .introducao li {
   font-size: 1.25rem;
-  color: #737a6e;
+  color: var(--cor-decora);
   list-style: url("/img/planeta.svg");
 }
 
 .introducao p {
   font-size: 1.5rem;
-  color: #60665c;
+  color: var(--cor-texto);
   align-items: center;
 }
 

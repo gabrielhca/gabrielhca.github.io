@@ -1,3 +1,10 @@
+:root {
+  --cor-line: #aeb5bb;
+  --cor-destaque: #304050;
+  --cor-decora: #7f8792;
+  --cor-texto: #5c6166;
+}
+
 .formacao {
   max-width: 1440px;
   padding: 0px 200px;
@@ -8,7 +15,7 @@
   align-items: center;
 }
 .formacao-text li {
-  color: #5c6663;
+  color: var(--cor-destaque);
   list-style: url("/img/circulo.svg");
   font-weight: bold;
   font-size: 1.6rem;
@@ -16,13 +23,13 @@
 }
 
 .formacao-text li, .formacao-text p {
-  background: #f5faf2;
+  background: var(--cor-line);
   border-radius: 5px;
   padding: 10px;
 }
 
 .formacao p {
-  color: #60665c;
+  color: var(--cor-texto);
 }
 
 .formacao-ord {
@@ -32,7 +39,7 @@
 
 .formacao h1 {
   font-size: 3rem;
-  color: #2c3427;
+  color: var(--cor-decora);
   text-align: center;
   padding-bottom: 20px;
 }

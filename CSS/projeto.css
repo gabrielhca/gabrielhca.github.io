@@ -1,10 +1,16 @@
+:root {
+  --cor-enfase: #ffd369;
+  --cor-fundo: #f9f7f7;
+  --cor-destaque: #304050;
+}
+
 .projeto {
   background: linear-gradient(
     to right,
-    #8d9b66 0%,
-    #8d9b66 39%,
-    #fbfff9 0%,
-    #fbfff9 100%
+    #304050 0%,
+    #304050 39%,
+    #f9f7f7 0%,
+    #f9f7f7 100%
   );
 }
 
@@ -18,27 +24,27 @@
   align-items: center;
 }
 .projeto-text h1 {
-  color: #fbfff9;
+  color: var(--cor-fundo);
   font-size: 1.5rem;
   text-align: end;
   padding: 30px;
   border-radius: 0px 5px 5px 0px;
-  background: #8d9b66;
+  background: var(--cor-destaque);
 }
 .projeto-botão {
   place-self: center;
 }
 .projeto-botão a {
-  color: #8d9b66;
+  color: var(--cor-destaque);
   font-size: 1.7rem;
   font-weight: bold;
   border-radius: 5px;
-  border: 3px solid #8d9b66;
-  background: #fbfff9;
+  border: 3px solid var(--cor-enfase);
+  background: var(--cor-fundo);
   padding: 10px 20px;
 }
 
 .projeto-botão a:hover {
-  color: #9eb758;
-  border-color: #9eb758;
+  color: #ffe03a;
+  border-color: #ffe03a;
 }
