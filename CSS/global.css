@@ -44,7 +44,7 @@ img {
 }
 
 strong {
-  color: var(--cor-destaque);
+  color: var(--cor-texto);
 }
 
 .copyright ul {
