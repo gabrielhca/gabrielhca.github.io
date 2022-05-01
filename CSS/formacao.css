@@ -5,11 +5,11 @@
   --cor-texto: #5c6166;
 }
 
-@media (prefers-ccolor-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --cor-destaque: #313c45;
     --cor-decora: #dfebf7;
-    --cor-texto: #f0f4f7;
+    --cor-texto: #ccd5df;
     --cor-bg: #1b2534;
   }
 }
@@ -24,25 +24,23 @@
   align-items: center;
 }
 .formacao-text li {
-  color: var(--cor-destaque);
+  color: var(--cor-decora);
   list-style: url("/img/circulo.svg");
   font-weight: bold;
   font-size: 1.6rem;
   padding: 10px;
 }
 
-.formacao-text li,
-.formacao-text p,
-.formacao-text span {
+.formacao-curso,
+.formacao-idioma {
   background: var(--cor-bg);
   border-radius: 5px;
-  padding: 0px 10px;
+  margin-top: 20px;
 }
 
 .formacao p,
 .formacao span {
   color: var(--cor-texto);
-  margin-bottom: 20px;
   padding: 5px;
 }
 
@@ -70,7 +68,18 @@
     padding-right: 10px;
   }
   .formacao-img {
-    justify-self: center;
-    order: 2;
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .formacao {
+    padding: 0px 30px;
+  }
+  .formacao h1 {
+    font-size: 2rem;
+  }
+  .formacao-text li {
+    font-size: 1.3rem;
   }
 }

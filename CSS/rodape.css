@@ -1,12 +1,12 @@
 :root {
-  --cor-fundo: #f9f7f7;
   --cor-destaque: #304050;
+  --cor-texto-cl: #f9f7f7;
 }
 
-@media (prefers-ccolor-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --cor-fundo: #141e2c;
-    --cor-destaque: #313c45;
+    --cor-texto-cl: #aeb5bb;
   }
 }
 
@@ -21,7 +21,7 @@
   grid-template-columns: 2fr 2fr 1fr 1fr;
   align-items: center;
   font-size: 1.5rem;
-  color: var(--cor-fundo);
+  color: var(--cor-texto-cl);
 }
 .contato-container p {
   margin-right: 80px;
@@ -29,7 +29,7 @@
 .contato-container li,
 a {
   font-size: 1.2rem;
-  color: var(--cor-fundo);
+  color: var(--cor-texto-cl);
   text-decoration: none;
   padding: 15px 5px;
 }
@@ -65,5 +65,19 @@ a {
     gap: 15px;
     justify-content: center;
     align-items: center;
+  }
+}
+@media (max-width: 800px) {
+  .contato-container {
+    padding: 0px 30px;
+    font-size: 1.2rem;
+  }
+  .contato-container li,
+  a {
+    font-size: 1rem;
+  }
+  .contato-container p {
+    text-align: center;
+    margin-top: 10px;
   }
 }

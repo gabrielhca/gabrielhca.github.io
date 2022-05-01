@@ -12,17 +12,21 @@ body {
   --cor-texto: #5c6166;
   --cor-line: #aeb5bb;
   --cor-bg: #edf1f5;
+  --cor-texto-cl: #f9f7f7;
+  --cor-bold: #304050;
 }
 
-@media (prefers-ccolor-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --cor-enfase: #ffd369;
     --cor-fundo: #141e2c;
     --cor-destaque: #313c45;
     --cor-decora: #dfebf7;
-    --cor-texto: #f0f4f7;
+    --cor-texto: #ccd5df;
     --cor-line: #58646f;
     --cor-bg: #1b2534;
+    --cor-texto-cl: #aeb5bb;
+    --cor-bold: #ffd369;
   }
 }
 
@@ -44,11 +48,11 @@ img {
 }
 
 strong {
-  color: var(--cor-texto);
+  color: var(--cor-bold);
 }
 
 .copyright ul {
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: var(--cor-texto);
   text-align: center;
 }
@@ -73,5 +77,8 @@ strong {
   .line3,
   .line4 {
     margin: 50px 0px;
+  }
+  .copyright ul {
+    font-size: 1rem;
   }
 }

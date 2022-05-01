@@ -4,10 +4,10 @@
   --cor-bg: #edf1f5;
 }
 
-@media (prefers-ccolor-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --cor-decora: #dfebf7;
-    --cor-texto: #f0f4f7;
+    --cor-texto: #ccd5df;
     --cor-bg: #1b2534;
   }
 }
@@ -26,6 +26,7 @@
   font-size: 3rem;
   color: var(--cor-decora);
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .experiencia-img {
@@ -52,5 +53,23 @@
   }
   .experiencia-img {
     justify-self: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .experiencia {
+    padding: 0px 30px;
+  }
+  .experiencia h1 {
+    font-size: 2rem;
+  }
+  .experiencia-text li {
+    line-height: 30px;
+    margin: 15px 0px;
+    padding: 5px;
+  }
+  .experiencia-img {
+    width: 75%;
+    height: 75%;
   }
 }

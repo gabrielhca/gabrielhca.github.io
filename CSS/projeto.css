@@ -1,15 +1,9 @@
 :root {
   --cor-enfase: #ffd369;
-  --cor-fundo: #f9f7f7;
+  --cor-texto-cl: #f9f7f7;
   --cor-destaque: #304050;
-}
-
-@media (prefers-ccolor-scheme: dark) {
-  :root {
-    --cor-enfase: #ffd369;
-    --cor-fundo: #141e2c;
-    --cor-destaque: #313c45;
-  }
+  --cor-projeto: #304050;
+  --cor-fundo: #f9f7f7;
 }
 
 .projeto {
@@ -22,17 +16,35 @@
   );
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --cor-enfase: #ffd369;
+    --cor-texto-cl: #aeb5bb;
+    --cor-destaque: #313c45;
+    --cor-projeto: #aeb5bb;
+    --cor-fundo: #141e2c;
+  }
+  .projeto {
+    background: linear-gradient(
+      to right,
+      #313c45 0%,
+      #313c45 39%,
+      #141e2c 0%,
+      #141e2c 100%
+    );
+  }
+}
+
 .projeto-container {
   max-width: 1440px;
   padding: 0px 200px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  font-size: 1.5rem;
   align-items: center;
 }
 .projeto-text h1 {
-  color: var(--cor-fundo);
+  color: var(--cor-texto-cl);
   font-size: 1.5rem;
   text-align: end;
   padding: 30px;
@@ -43,7 +55,7 @@
   place-self: center;
 }
 .projeto-botão a {
-  color: var(--cor-destaque);
+  color: var(--cor-projeto);
   font-size: 1.7rem;
   font-weight: bold;
   border-radius: 5px;
@@ -54,4 +66,27 @@
 
 .projeto-botão a:hover {
   background: var(--cor-enfase);
+}
+
+@media (max-width: 800px) {
+  .projeto-container {
+    padding: 0px 30px;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .projeto {
+    background: none;
+  }
+  .projeto-text h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    background: none;
+    color: var(--cor-texto);
+  }
+  .projeto-botão a {
+    font-size: 1.3rem;
+    padding: 10px 20px;
+  }
 }
