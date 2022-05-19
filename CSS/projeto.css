@@ -67,6 +67,7 @@
 .projeto-botão a:hover {
   color: #141e2c;
   background: var(--cor-enfase);
+  transition: 0.3s;
 }
 
 @media (max-width: 800px) {

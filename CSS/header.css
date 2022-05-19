@@ -46,16 +46,27 @@
 
 .header-menu a {
   font-size: 1.3rem;
-  padding: 10px 20px;
+  padding: 10px 0px;
+  margin: 0px 20px;
   text-decoration: none;
   color: var(--cor-texto);
   display: block;
-  border-radius: 5px;
-  border: 2px solid var(--cor-fundo);
+  position: relative;
 }
 
-.header a:hover {
-  border-color: var(--cor-enfase);
+.header-menu a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: var(--cor-enfase);
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.header-menu a:hover:after {
+  width: 100%;
 }
 
 @media (max-width: 1150px) {
@@ -67,6 +78,11 @@
   .header a {
     background: var(--cor-bg);
     border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0px;
+  }
+  .header a:after {
+    display: none;
   }
 }
 @media (max-width: 800px) {
