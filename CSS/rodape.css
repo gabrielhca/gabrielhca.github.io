@@ -1,15 +1,3 @@
-:root {
-  --cor-destaque: #304050;
-  --cor-texto-cl: #f9f7f7;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --cor-fundo: #141e2c;
-    --cor-texto-cl: #aeb5bb;
-  }
-}
-
 .contato {
   background: var(--cor-destaque);
 }
@@ -20,18 +8,19 @@
   display: grid;
   grid-template-columns: 2fr 2fr 1fr 1fr;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--cor-texto-cl);
 }
 .contato-container p {
   margin-right: 80px;
+  font-weight: 600;
 }
 .contato-container li,
 a {
-  font-size: 1.2rem;
   color: var(--cor-texto-cl);
   text-decoration: none;
   padding: 15px 5px;
+  font-size: 1.2rem;
 }
 .contato-email {
   list-style: url("/img/e-mail.svg");
@@ -70,7 +59,6 @@ a {
 @media (max-width: 800px) {
   .contato-container {
     padding: 0px 30px;
-    font-size: 1.2rem;
   }
   .contato-container li,
   a {

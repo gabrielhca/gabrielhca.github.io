@@ -1,33 +1,17 @@
-:root {
-  --cor-bg: #edf1f5;
-  --cor-destaque: #304050;
-  --cor-decora: #7f8792;
-  --cor-texto: #5c6166;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --cor-destaque: #313c45;
-    --cor-decora: #dfebf7;
-    --cor-texto: #ccd5df;
-    --cor-bg: #1b2534;
-  }
-}
-
 .formacao {
   max-width: 1440px;
   padding: 0px 200px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 2fr 1fr;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   align-items: center;
 }
 .formacao-text li {
   color: var(--cor-decora);
   list-style: url("/img/circulo.svg");
   font-weight: bold;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   padding: 10px;
 }
 
@@ -36,6 +20,9 @@
   background: var(--cor-bg);
   border-radius: 5px;
   margin-top: 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  background: var(--cor-bg);
+  padding-bottom: 10px;
 }
 
 .formacao p,
