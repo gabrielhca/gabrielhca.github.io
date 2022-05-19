@@ -34,6 +34,8 @@
 .formacao-ord {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  width: max-content;
 }
 
 .formacao h1 {
@@ -68,5 +70,8 @@
   }
   .formacao-text li {
     font-size: 1.3rem;
+  }
+  .formacao-ord {
+    grid-template-columns: 1fr;
   }
 }
