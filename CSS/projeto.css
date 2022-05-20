@@ -28,14 +28,15 @@
   grid-template-columns: 2fr 1fr;
   align-items: center;
 }
-.projeto-text h1 {
+.projeto-text h2 {
   color: var(--cor-texto-cl);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: end;
   padding: 30px;
   border-radius: 0px 5px 5px 0px;
   background: var(--cor-destaque);
 }
+
 .projeto-botão {
   place-self: center;
 }
@@ -65,7 +66,7 @@
   .projeto {
     background: none;
   }
-  .projeto-text h1 {
+  .projeto-text h2 {
     font-size: 1.2rem;
     text-align: center;
     padding: 15px;

@@ -1,0 +1,38 @@
+.p-intro {
+  background: linear-gradient(
+    to right,
+    #304050 0%,
+    #304050 39%,
+    #f9f7f7 0%,
+    #f9f7f7 100%
+  );
+}
+
+@media (prefers-color-scheme: dark) {
+  .p-intro {
+    background: linear-gradient(
+      to right,
+      #313c45 0%,
+      #313c45 39%,
+      #141e2c 0%,
+      #141e2c 100%
+    );
+  }
+}
+
+.p-intro-container {
+  max-width: 1440px;
+  padding: 0px 200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.p-intro-text h1 {
+  color: var(--cor-texto-cl);
+  font-size: 1.3rem;
+  text-align: end;
+  padding: 30px;
+  border-radius: 0px 5px 5px 0px;
+  background: var(--cor-destaque);
+}

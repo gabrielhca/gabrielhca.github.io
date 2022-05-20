@@ -1,7 +1,7 @@
-.contato {
+.rodape {
   background: var(--cor-destaque);
 }
-.contato-container {
+.rodape-container {
   max-width: 1440px;
   padding: 20px 200px;
   margin: 0 auto;
@@ -11,42 +11,79 @@
   font-size: 1.3rem;
   color: var(--cor-texto-cl);
 }
-.contato-container p {
+.rodape-container p {
   margin-right: 80px;
   font-weight: 600;
 }
-.contato-container li,
+.rodape-container li,
 a {
   color: var(--cor-texto-cl);
   text-decoration: none;
   padding: 15px 5px;
   font-size: 1.2rem;
 }
-.contato-email {
-  list-style: url("/img/e-mail.svg");
-}
-.contato-fone {
-  list-style: url("/img/wpp.svg");
-}
-.contato-in {
-  list-style: url("/img/in.svg");
-}
-.contato-inst {
-  list-style: url("/img/insta.svg");
+
+.rodape-inst,
+.rodape-in,
+.rodape-fone,
+.rodape-email {
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
-.contato-container img {
-  place-self: end;
+.rodape-svg .rodape-fone::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("/img/wpp.svg");
+  position: absolute;
+  left: -20px;
+}
+
+.rodape-svg .rodape-email::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 16px;
+  background-image: url("/img/e-mail.svg");
+  position: absolute;
+  left: -20px;
+}
+
+.rodape-svg .rodape-inst::before {
+  content: "";
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background-image: url("/img/insta.svg");
+  position: absolute;
+  left: -21px;
+}
+
+.rodape-svg .rodape-in::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("/img/in.svg");
+  position: absolute;
+  left: -20px;
+}
+
+.rodape-container img {
+  justify-self: end;
 }
 
 @media (max-width: 1300px) {
-  .contato-container img {
+  .rodape-container img {
     display: none;
   }
-  .contato-container p {
+  .rodape-container p {
     margin-right: 0px;
   }
-  .contato-container {
+  .rodape-container {
     grid-template-columns: none;
     display: flex;
     flex-wrap: wrap;
@@ -57,14 +94,14 @@ a {
   }
 }
 @media (max-width: 800px) {
-  .contato-container {
+  .rodape-container {
     padding: 0px 30px;
   }
-  .contato-container li,
+  .rodape-container li,
   a {
     font-size: 1rem;
   }
-  .contato-container p {
+  .rodape-container p {
     text-align: center;
     margin-top: 10px;
   }
