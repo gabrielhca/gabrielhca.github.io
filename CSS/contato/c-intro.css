@@ -35,3 +35,17 @@
   border-radius: 0px 5px 5px 0px;
   background: var(--cor-destaque);
 }
+
+@media (max-width: 800px) {
+  .c-intro-container {
+    margin: 0px;
+    padding: 0px;
+    grid-template-columns: 1fr;
+  }
+  .c-intro-text h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0px;
+  }
+}
