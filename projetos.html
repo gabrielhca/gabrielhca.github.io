@@ -11,6 +11,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <script>
+    document.documentElement.classList.add('js');</script>
 </head>
 
 <body>
@@ -22,7 +24,7 @@
       </a>
       <nav>
         <ul class="header-menu">
-          <li><a href="./">Experiência</a></li>
+          <li><a href="./index.html">Experiência</a></li>
           <li><a href="/projetos.html">Projetos</a></li>
           <li><a href="/contato.html">Contato</a></li>
         </ul>
@@ -41,7 +43,7 @@
   <hr class="line-r">
   <section class="p-sites">
     <div class="p-sites-container">
-      <div class="p-sites-img">
+      <div class="p-sites-img fadeInLeft" data-anime="400">
         <a href="https://gabrielhca.github.io/bickcraft/" target="_blank" rel="noopener noreferrer">
           <img src="/img/bikcraft.png" alt="Bikcraft">
         </a>
@@ -77,6 +79,8 @@
       <li>GHCA - Alguns diretos reservados.</li>
     </ul>
   </div>
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

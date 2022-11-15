@@ -5,12 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/CSS/style.min.css">
-  <title>GHCA - Desenvolvedor e  Web Designer</title>
+  <title>GHCA - Desenvolvedor e Web Designer</title>
   <meta name="description" content="Desenvolvedor Front End e UI/UX Designer, localizado em Uberlândia - MG">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <script>
+    document.documentElement.classList.add('js');</script>
 </head>
 
 <body>
@@ -18,8 +20,8 @@
     <div class="header-dec"></div>
     <div class="header">
       <a href="./">
-      <img src="/img/logo.svg" alt="Gabriel Henrique">
-    </a>
+        <img src="/img/logo.svg" alt="Gabriel Henrique">
+      </a>
       <nav>
         <ul class="header-menu">
           <li><a href="#experiencia">Experiência</a></li>
@@ -52,7 +54,7 @@
         </ul>
       </div>
     </nav>
-    <div class="experiencia-img">
+    <div class="experiencia-img fadeInDown" data-anime="400">
       <img src="/img/experiencia.svg" alt="Experiencia">
     </div>
   </section>
@@ -71,7 +73,7 @@
   </section>
   <hr class="line-l">
   <section class="formacao" aria-label="Formacao">
-    <div class="formacao-img">
+    <div class="formacao-img fadeInLeft" data-anime="400">
       <img src="/img/formação.svg" alt="Formacao">
     </div>
     <nav>
@@ -120,6 +122,8 @@
       <li>GHCA - Alguns diretos reservados.</li>
     </ul>
   </div>
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
