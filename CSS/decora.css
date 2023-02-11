@@ -1,0 +1,17 @@
+.decora {
+  max-width: 200px;
+  padding: 0px 100px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+}
+.decoraLink {
+  justify-self: center;
+}
+.dec-d {
+justify-self: end;
+}
+.dec-e {
+justify-self: start;
+}

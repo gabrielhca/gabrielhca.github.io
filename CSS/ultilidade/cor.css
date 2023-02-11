@@ -1,27 +1,10 @@
 :root {
-  --cor-enfase: #ffd369;
-  --cor-fundo: #f9f7f7;
-  --cor-destaque: #304050;
-  --cor-decora: #7f8792;
+  --cor-enfase: #99c221;
+  --cor-brilho: #AEE215;
+  --cor-fundo: #fafbf5;
+  --cor-destaque: #41474c;
+  --cor-texto2: #757D84;
   --cor-texto: #5c6166;
-  --cor-line: #aeb5bb;
-  --cor-bg: #edf1f5;
-  --cor-texto-cl: #f9f7f7;
-  --cor-bold: #304050;
-  --cor-projeto: #304050;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --cor-enfase: #ffd369;
-    --cor-fundo: #141e2c;
-    --cor-destaque: #313c45;
-    --cor-decora: #dfebf7;
-    --cor-texto: #ccd5df;
-    --cor-line: #313c45;
-    --cor-bg: #1b2534;
-    --cor-texto-cl: #aeb5bb;
-    --cor-bold: #ffd369;
-    --cor-projeto: #aeb5bb;
-  }
+  --cor-bg: #F1F2ED;
+  --cor-texto-cl: #fafbf5;
 }

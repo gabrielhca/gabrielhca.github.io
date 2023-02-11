@@ -5,10 +5,11 @@
   max-width: 1440px;
   padding: 20px 200px;
   margin: 0 auto;
+  margin-top: 80px;
   display: grid;
   grid-template-columns: 2fr 2fr 1fr 1fr;
   align-items: center;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: var(--cor-texto-cl);
 }
 .rodape-container p {
@@ -20,10 +21,10 @@ a {
   color: var(--cor-texto-cl);
   text-decoration: none;
   padding: 15px 5px;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
-.rodape-inst,
+.rodape-git-p,
 .rodape-in,
 .rodape-fone,
 .rodape-email {
@@ -52,12 +53,12 @@ a {
   left: -20px;
 }
 
-.rodape-svg .rodape-inst::before {
+.rodape-svg .rodape-git-p::before {
   content: "";
   display: inline-block;
   width: 23px;
   height: 23px;
-  background-image: url("/img/insta.svg");
+  background-image: url("/img/git-p.svg");
   position: absolute;
   left: -21px;
 }
