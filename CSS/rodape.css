@@ -3,11 +3,11 @@
 }
 .rodape-container {
   max-width: 1440px;
-  padding: 20px 200px;
+  padding: 20px 150px;
   margin: 0 auto;
   margin-top: 80px;
   display: grid;
-  grid-template-columns: 2fr 2fr 1fr 1fr;
+  grid-template-columns: 3fr 2fr 2fr 1fr;
   align-items: center;
   font-size: 1.2rem;
   color: var(--cor-texto-cl);
@@ -77,7 +77,7 @@ a {
   justify-self: end;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1150px) {
   .rodape-container img {
     display: none;
   }
@@ -96,7 +96,8 @@ a {
 }
 @media (max-width: 800px) {
   .rodape-container {
-    padding: 0px 30px;
+    padding: 15px 30px;
+    margin-top: 40px;
   }
   .rodape-container li,
   a {
