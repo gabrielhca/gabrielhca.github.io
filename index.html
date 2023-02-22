@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/CSS/style.css">
+  <link rel="stylesheet" href="/CSS/style.min.css">
   <title>Gabriel Carneiro - Desenvolvedor Front-End</title>
   <meta name="description" content="Desenvolvedor Front End e UI/UX Designer, localizado em Uberlândia - MG">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,18 +34,18 @@
   <main class="introducao">
     <nav>
       <div class="introducao-apresenta introducao-local">
-        <h1>Desenvolvedor front-End</h1>
-        <p>Sou um desenvolvedor front-end dedicado a oferecer a melhor experiência de usuário possível. Com minhas habilidades em tecnologia, busco sempre alcançar resultados incríveis para meus clientes. Deixe-me ajudá-lo a transformar sua presença online e torná-la ainda mais eficiente e atrativa.</strong></p>
-        <ul>
+        <h1 class="fadeInDown" data-anime="200">Desenvolvedor front-End</h1>
+        <p class="fadeInDown" data-anime="400">Sou um desenvolvedor front-end dedicado a oferecer a melhor experiência de usuário possível. Com minhas habilidades em tecnologia, busco sempre alcançar resultados incríveis para meus clientes. Deixe-me ajudá-lo a transformar sua presença online e torná-la ainda mais eficiente e atrativa.</strong></p>
+        <ul class="fadeInDown" data-anime="500">
           <li>Localizado em Uberlândia - MG</li>
         </ul>
       </div>
     </nav>
-    <div class="introducao-img fadeInDown" data-anime="400">
+    <div class="introducao-img fadeInDown" data-anime="600">
       <img src="/img/intro.svg" alt="Introducao">
     </div>
   </main>
-  <section class="decora" id="Decora">
+  <section class="decora fadeInDown" data-anime="800" id="Decora">
     <div class="dec-d">
       <img src="/img/dec.svg" alt="decoracao">
     </div>
@@ -58,17 +58,17 @@
   </section>
   <section class="projetos" id="Projetos">
     <div class="projetos-container">
-      <div class="projetos-img fadeInLeft" data-anime="400">
+      <div class="projetos-img fadeInDown js-animacao" data-anime="400">
         <a href="https://gabrielhca.github.io/bickcraft/" target="_blank" rel="noopener noreferrer">
           <img src="/img/bikcraft.png" alt="Bikcraft">
         </a>
       </div>
-      <div class="projetos-text" id="strong">
+      <div class="projetos-text fadeInDown js-animacao" id="strong" data-anime="600">
         <p>O site Bikcraft foi criado atraves do curso Origamid usando apenas <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.</p>
       </div>
     </div>
   </section>
-  <section class="decora">
+  <section class="decora fadeInDown" data-anime="400">
     <div class="dec-d">
       <img src="/img/dec.svg" alt="decoracao">
     </div>
@@ -79,7 +79,7 @@
       <img src="/img/dec.svg" alt="decoracao">
     </div>
   </section>
-  <section class="conhecimento" aria-label="Conhecimento">
+  <section class="conhecimento fadeInDown js-animacao" data-anime="200" aria-label="Conhecimento">
     <nav>
       <h1>Habilidades</h1>
       <div>
@@ -95,7 +95,7 @@
         </ul>
       </div>
     </nav>
-    <div class="conhecimento-img fadeInLeft" data-anime="400">
+    <div class="conhecimento-img fadeInLeft js-animacao" data-anime="400">
       <img src="/img/conhecimento.svg" alt="Conhecimento">
     </div>
   </section>
