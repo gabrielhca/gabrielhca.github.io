@@ -23,10 +23,10 @@ function redirectToLanguageVersion(language) {
   }
 }
 
-// Chame esta função quando o botão é clicado para redirecionamento manual, evento de clique
-document.getElementById('.language').addEventListener('click', function() {
+
+document.getElementById('language').addEventListener('click', function() {
   redirectToLanguageVersionManual("en");
 });
 
-//chamo a função
+
 redirectToLanguageVersion(browserLanguage);
