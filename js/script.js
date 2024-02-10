@@ -22,8 +22,8 @@ function initScrollSuave() {
 }
 initScrollSuave();
 
-function initAnimacaoScroll() {
-  const sections = document.querySelectorAll(".js-animacao");
+function initAnimationScroll() {
+  const sections = document.querySelectorAll(".js-animation");
   if (sections.length) {
     const windowMetade = window.innerHeight * 0.6;
 
@@ -41,4 +41,7 @@ function initAnimacaoScroll() {
     window.addEventListener("scroll", animaScroll);
   }
 }
-initAnimacaoScroll();
+initAnimationScroll();
+
+var idiomaNavegador = navigator.language || navigator.userLanguage;
+

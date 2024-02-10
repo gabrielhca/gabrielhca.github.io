@@ -1,9 +1,7 @@
 @import "/CSS/header.css";
 @import "/CSS/global.css";
-@import "/CSS/ultilidade/cor.css";
-@import "/CSS/ultilidade/animacao.css";
-@import "/CSS/introducao.css";
-@import "/CSS/decora.css";
-@import "/CSS/projetos.css";
-@import "/CSS/conhecimento.css";
-@import "/CSS/rodape.css";
+@import "/CSS/utility/color.css";
+@import "/CSS/utility/animation.css";
+@import "/CSS/introduction.css";
+@import "/CSS/project.css";
+@import "/CSS/footer.css";
