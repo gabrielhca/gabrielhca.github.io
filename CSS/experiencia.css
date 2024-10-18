@@ -1,0 +1,42 @@
+.experiencia {
+  max-width: 1440px;
+  padding: 0px 200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-size: 1.5rem;
+  align-items: center;
+}
+
+.experiencia h1 {
+  font-size: 3rem;
+  color: #2c3427;
+  text-align: center;
+}
+
+.experiencia-img {
+  justify-self: end;
+}
+
+.experiencia-text li {
+  color: #60665c;
+  line-height: 40px;
+  list-style: url("/img/circulo.svg");
+  margin: 20px 0px;
+  background: #f5faf2;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+@media (max-width: 1150px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    font-size: 1.2rem;
+  }
+  .experiencia h1 {
+    font-size: 2.2rem;
+  }
+  .experiencia-img {
+    justify-self: center;
+  }
+}

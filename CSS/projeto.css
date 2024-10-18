@@ -1,0 +1,44 @@
+.projeto {
+  background: linear-gradient(
+    to right,
+    #8d9b66 0%,
+    #8d9b66 39%,
+    #fbfff9 0%,
+    #fbfff9 100%
+  );
+}
+
+.projeto-container {
+  max-width: 1440px;
+  padding: 0px 200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  font-size: 1.5rem;
+  align-items: center;
+}
+.projeto-text h1 {
+  color: #fbfff9;
+  font-size: 1.5rem;
+  text-align: end;
+  padding: 30px;
+  border-radius: 0px 5px 5px 0px;
+  background: #8d9b66;
+}
+.projeto-botão {
+  place-self: center;
+}
+.projeto-botão a {
+  color: #8d9b66;
+  font-size: 1.7rem;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 3px solid #8d9b66;
+  background: #fbfff9;
+  padding: 10px 20px;
+}
+
+.projeto-botão a:hover {
+  color: #9eb758;
+  border-color: #9eb758;
+}

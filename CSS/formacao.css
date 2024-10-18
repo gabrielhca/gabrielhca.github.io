@@ -1,0 +1,55 @@
+.formacao {
+  max-width: 1440px;
+  padding: 0px 200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  font-size: 1.5rem;
+  align-items: center;
+}
+.formacao-text li {
+  color: #5c6663;
+  list-style: url("/img/circulo.svg");
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-top: 20px;
+}
+
+.formacao-text li, .formacao-text p {
+  background: #f5faf2;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.formacao p {
+  color: #60665c;
+}
+
+.formacao-ord {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.formacao h1 {
+  font-size: 3rem;
+  color: #2c3427;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1150px) {
+  .formacao {
+    grid-template-columns: 1fr;
+    font-size: 1.2rem;
+  }
+  .formacao h1 {
+    font-size: 2.2rem;
+  }
+  .formacao-ord {
+    padding-right: 10px;
+  }
+  .formacao-img {
+      justify-self: center;
+      order: 2;
+    }
+}

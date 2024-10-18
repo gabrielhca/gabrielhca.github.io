@@ -1,0 +1,49 @@
+.introducao {
+  max-width: 1440px;
+  padding: 0px 200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+
+.introducao h1 {
+  font-size: 3.1rem;
+  line-height: 70px;
+  color: #2c3427;
+  margin-bottom: 30px;
+}
+
+.introducao-local {
+  justify-self: end;
+}
+
+.introducao li {
+  font-size: 1.25rem;
+  color: #737a6e;
+  list-style: url("/img/planeta.svg");
+}
+
+.introducao p {
+  font-size: 1.5rem;
+  color: #60665c;
+  align-items: center;
+}
+
+@media (max-width: 1150px) {
+  .introducao {
+    grid-template-columns: 1fr;
+  }
+  .introducao h1 {
+    font-size: 2.5rem;
+  }
+  .introducao-local {
+    justify-self: start;
+  }
+  .introducao ul {
+    display: none;
+  }
+  .introducao-apresenta {
+    order: 2;
+  }
+}
