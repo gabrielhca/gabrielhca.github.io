@@ -55,6 +55,17 @@
 .introduction-img {
   grid-column: 3 / 3;
   justify-self: end;
+  padding: 20px;
+}
+
+.introduction-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  border: 2px solid var(--dark-color);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 /* BREAKPOINTS*/
@@ -81,6 +92,7 @@
     grid-column: 1/1;
     justify-self: center;
     max-width: 400px;
+    padding: 30px;
   }
   .decorative {
     margin: 20px 40px;
@@ -91,6 +103,10 @@
   .introduction {
     padding: 0px 40px;
     margin-top: 40px;
+  }
+  .introduction-img {
+    padding: 25px;
+    max-width: 300px;
   }
   .introduction h1 {
     font-size: 1.8rem;
@@ -107,6 +123,10 @@
 @media (max-width: 576px) {
   .introduction {
     padding: 0px 20px;
+  }
+  .introduction-img {
+    padding: 20px;
+    max-width: 250px;
   }
   .introduction h1 {
     font-size: 1.6rem;
