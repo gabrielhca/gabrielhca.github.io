@@ -90,30 +90,40 @@
 @media (max-width: 768px) {
   .footer-container {
     padding: 60px 40px;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    font-size: 1rem;
+  }
+  .footer-svg {
+    text-align: left;
+  }
+  .footer-svg ul {
+    text-align: left;
+    padding-left: 0;
+  }
+  .footer-svg li {
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .footer-svg li a {
+    display: flex;
+    align-items: center;
     font-size: 1rem;
   }
   .footer-text {
-    font-size: 1.2rem;
+    text-align: left;
+    order: -1;
+    font-size: 1.4rem;
   }
-  .footer-svg {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-  .footer-svg li {
-    margin-bottom: 20px;
+  .footer-text img, .footer-img {
+    display: none;
   }
 }
 
 @media (max-width: 576px) {
   .footer-container {
     padding: 40px 20px;
-  }
-  .footer-text {
-    font-size: 1.1rem;
-  }
-  .footer-svg img {
-    width: 20px;
-    height: 20px;
   }
 }
 

@@ -118,9 +118,14 @@
   .project-container h2 {
     font-size: 1.8rem;
     text-align: center;
+    margin-bottom: 25px;
   }
   .project-container p {
-    text-align: center;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .project-container li {
+    margin-bottom: 40px;
   }
 }
 

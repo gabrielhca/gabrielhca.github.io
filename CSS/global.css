@@ -64,13 +64,12 @@ a {
 
 @media (max-width: 768px) {
   .language { 
-    padding: 0px 40px; 
-    justify-content: center;
+    display: none;
   }
-  .divider { margin: 40px 90px; }
+  .divider { margin: 40px 40px; }
 }
 
 @media (max-width: 576px) {
   .language { padding: 0px 20px; }
-  .divider { margin: 30px 70px; }
+  .divider { margin: 30px 30px; }
 }
