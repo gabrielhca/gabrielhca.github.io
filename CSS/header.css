@@ -81,6 +81,10 @@
   .header > a {
     display: none;
   }
+  .header-menu .contato {
+    display: none;
+  }
+
   .header-menu {
     justify-content: center;
   }
@@ -91,6 +95,9 @@
     border-radius: 20px;
     border: 2px solid var(--dark-color);
     font-size: 1.1rem;
+  }
+  .header-menu a[href="#Footer"] {
+    display: none;
   }
 }
 

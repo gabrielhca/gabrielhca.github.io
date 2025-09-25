@@ -66,10 +66,13 @@ a {
   .language { 
     display: none;
   }
-  .divider { margin: 40px 40px; }
+  .divider { margin: 30px 40px; }
+  .project + .divider {
+    border-top: none;
+  }
 }
 
 @media (max-width: 576px) {
   .language { padding: 0px 20px; }
-  .divider { margin: 30px 30px; }
+  .divider { margin: 20px 30px; }
 }
