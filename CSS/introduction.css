@@ -4,8 +4,8 @@
   margin: 0 auto;
   margin-top: 60px;
   display: grid;
-  grid-template-columns: 2fr 1fr 2fr;
-  align-items: center;
+  grid-template-columns: 2.4fr 1fr 2fr; 
+  align-items: start;
 }
 
 .introduction h1 {
@@ -61,8 +61,9 @@
 .introduction-img {
   grid-column: 3 / 3;
   justify-self: end;
-  padding: 20px;
+  padding: 0px;
   position: relative;
+  max-width: 300px;
 }
 
 .introduction-img img {
@@ -79,10 +80,10 @@
 .introduction-img::before {
   content: '';
   position: absolute;
-  top: 20px;
-  left: 20px;
-  right: 20px;
-  bottom: 20px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
   background-image: url('/img/perfil-ghca-pixel.png');
   background-size: cover;
   background-position: center;
