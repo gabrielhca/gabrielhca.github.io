@@ -1,5 +1,5 @@
 :root {
-  --accent-color: #B00000;
+  --accent-color: #C8102E;
   --bg-color: #f3f1e8;
   --dark-color: #1a1a1a;
   --text-color: #4a4a4a;
@@ -16,7 +16,7 @@
 }
 
 body.dark-mode {
-  --accent-color: #DE1E2D;
+  --accent-color: #E60023;
   --bg-color: #1F1F1F;
   --text-color: #F3F1E8;
   --divider-color: #121212;
