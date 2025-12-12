@@ -9,12 +9,11 @@
 }
 
 .introduction h1 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   margin-bottom: 30px;
   color: var(--dark-color);
-  font-family: 'Noto Traditional Nushu', sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
-  word-spacing: -4px;
 }
 
 .decorative {
@@ -47,7 +46,7 @@
 }
 
 .introduction p {
-  font-size: 1.2rem;
+  font-size: 1.125rem;
   color: var(--text-color);
   margin-bottom: 20px;
 }
