@@ -1,12 +1,13 @@
 .footer {
-  background: var(--dark-color);
+  background: var(--footer-bg);
+  transition: background 0.3s;
 }
 
 .footer-container {
   max-width: 1600px;
   padding: 80px 200px;
   margin: 0 auto;
-  color: var(--bg-color);
+  color: var(--footer-text);
   display: flex;
   flex-direction: column; 
 }
@@ -42,7 +43,7 @@
   padding: 12px 16px;
 }
 
-.footer-svg img {
+.footer-svg svg {
   display: inline-block;
   vertical-align: middle;
   margin-right: 12px;
@@ -55,7 +56,7 @@
   align-self: end;
 }
 
-.footer-logo img {
+.footer-logo svg {
   width: auto;
   height: 80px;
 }

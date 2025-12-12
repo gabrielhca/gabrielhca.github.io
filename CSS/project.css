@@ -7,7 +7,7 @@
 .project-container h2 {
   font-size: 1.75rem;
   margin-bottom: 32px;
-  color: var(--dark-color);
+  color: var(--title-color);
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
 }
@@ -50,7 +50,7 @@
   margin: 0;
   align-self: center;
   font-size: 1.25rem;
-  color: var(--dark-color);
+  color: var(--title-color);
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 500;
 }
@@ -69,7 +69,7 @@
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18);
 }
 
-.project-container li img.svg-icon {
+.project-container li svg.svg-icon {
   width: 15px;
   height: 15px;
   margin-right: 15px;
@@ -82,7 +82,7 @@
   align-self: center;
 }
 
-.project-container li img.svg-icon:hover {
+.project-container li svg.svg-icon:hover {
   transform: none;
   box-shadow: none;
 }

@@ -11,7 +11,7 @@ function redirectToLanguageVersionManual(language) {
 
 function redirectToLanguageVersion(language) {
   const urlParams = new URLSearchParams(window.location.search);
-  if (!urlParams.get('manualRedirect') && !urlParams.get('outraCondicao')) {
+  if (!urlParams.get('manualRedirect')) {
     switch (language) {
       case "en":
         window.location.href = "index-en.html?redirected=true";
@@ -24,9 +24,9 @@ function redirectToLanguageVersion(language) {
 }
 
 
-document.getElementById('language').addEventListener('click', function() {
+document.getElementById('languageButton').addEventListener('click', function() {
   redirectToLanguageVersionManual("en");
 });
 
 
-redirectToLanguageVersion(browserLanguage);
+// redirectToLanguageVersion(idiomaNavegador);
