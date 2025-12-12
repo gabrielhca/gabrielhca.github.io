@@ -24,9 +24,9 @@ function redirectToLanguageVersion(language) {
 }
 
 
-document.getElementById('languageButton').addEventListener('click', function() {
-  redirectToLanguageVersionManual("en");
-});
+// document.getElementById('languageButton').addEventListener('click', function() {
+//   redirectToLanguageVersionManual("en");
+// });
 
 
 // redirectToLanguageVersion(idiomaNavegador);
