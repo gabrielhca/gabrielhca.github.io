@@ -29,11 +29,11 @@ a {
 }
 
 .language {
-  max-width: 1600px;
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 0px 200px;
+  padding: 0px 120px;
   margin: 0 auto;
   margin-top: 60px;
 }
@@ -51,16 +51,6 @@ a {
 }
 
 /* BREAKPOINTS */
-@media (max-width: 1400px) {
-  .language { padding: 0px 150px; }
-  .divider { margin: 100px 200px; }
-}
-
-@media (max-width: 1200px) {
-  .language { padding: 0px 100px; }
-  .divider { margin: 80px 150px; }
-}
-
 @media (max-width: 992px) {
   .language { padding: 0px 80px; }
   .divider { margin: 60px 130px; }
@@ -68,7 +58,9 @@ a {
 
 @media (max-width: 768px) {
   .language { 
-    display: none;
+    /* display: none; removido para manter visível em mobile */
+    margin-top: 30px;
+    padding: 0px 40px;
   }
   .divider { margin: 30px 40px; }
   .project + .divider {

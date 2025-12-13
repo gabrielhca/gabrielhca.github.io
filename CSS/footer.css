@@ -4,8 +4,8 @@
 }
 
 .footer-container {
-  max-width: 1600px;
-  padding: 80px 100px;
+  max-width: 1200px;
+  padding: 80px 120px;
   margin: 0 auto;
   color: var(--footer-text);
   display: flex;
@@ -62,27 +62,12 @@
 }
 
 /* --- BREAKPOINTS --- */
-@media (max-width: 1400px) {
-  .footer-container {
-    padding: 80px 75px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .footer-container {
-    padding: 80px 50px;
-  }
-  .footer-svg ul {
-    gap: 20px 60px;
-  }
-}
-
 @media (max-width: 992px) {
   .footer-text-intro p {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
   .footer-container {
-    padding: 60px 40px;
+    padding: 60px 80px;
   }
   .footer-content-wrapper {
     grid-template-columns: 2fr 1fr;
