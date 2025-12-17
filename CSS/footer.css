@@ -5,7 +5,7 @@
 
 .footer-container {
   max-width: 1200px;
-  padding: 80px 120px;
+  padding: 80px 120px 20px 120px;
   margin: 0 auto;
   color: var(--footer-text);
   display: flex;
@@ -123,4 +123,20 @@
   .footer-container {
     padding: 20px 15px;
   }
+}
+
+.footer-copyright {
+  text-align: center;
+  padding: 40px 20px 20px 20px;
+  color: var(--footer-text);
+}
+
+.footer-copyright small {
+  font-size: 0.875rem;
+  opacity: 0.8;
+}
+
+.footer-copyright .highlight {
+  color: var(--accent-color);
+  opacity: 1;
 }
