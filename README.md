@@ -1,28 +1,33 @@
 # Portfólio - Gabriel Amorim
 
-Este é o repositório do meu portfólio pessoal, construído para ser hospedado no GitHub Pages. O objetivo é criar uma página estática para me apresentar, centralizar meus links de contato e exibir os projetos em que estou trabalhando.
+Repositório contendo o código-fonte (Front-end) do meu site pessoal.
+O objetivo deste projeto é centralizar meus contatos profissionais e servir de índice para meus repositórios de estudo e pesquisa.
 
-## ⚠️ Status do Projeto: Em Desenvolvimento
+🔗 **Acesse aqui:** [gabrielhca.github.io](https://gabrielhca.github.io)
 
-Este portfólio é um projeto vivo e **ainda não está finalizado**. Estou trabalhando em melhorias de design, responsividade e na adição de projetos.
+## Sobre o Projeto
 
-## Conceito
+Este site atua como um hub central. Ele não hospeda o conteúdo dos projetos em si, apenas redireciona para os repositórios específicos onde o desenvolvimento real acontece.
 
-O site funciona como um cartão de visitas digital. Ele é uma página única que direciona o visitante para meus projetos principais e redes profissionais, como GitHub e LinkedIn.
+O conteúdo está em constante alteração conforme avanço nos estudos na UFU e nas pesquisas de laboratório.
 
-## Tecnologias Utilizadas
+## Tecnologias
 
-Este é um projeto focado em front-end puro, sem frameworks ou bibliotecas complexas.
+Optei por não usar frameworks (como React ou Vue) para manter o projeto leve e exercitar os fundamentos da web.
 
-* **HTML5 Semântico:** Estrutura principal do site.
-* **CSS3:** Estilização customizada, utilizando Flexbox e CSS Grid para o layout.
-* **JavaScript (Vanilla):** Utilizado para funcionalidades de navegação (smooth scroll) e animações de entrada (fade-in).
-* **Internacionalização:** O site possui duas versões estáticas para suportar Português (`index.html`) e Inglês (`index-en.html`).
+* **HTML5:** Estrutura semântica.
+* **CSS3:** Estilização e layout responsivo.
+* **JavaScript:** Funcionalidades simples de interação e troca de idioma (PT/EN).
 
-## Estrutura do Site
+## Estrutura
 
-A página é dividida em três seções principais:
+* `index.html`: Versão em Português.
+* `index-en.html`: Versão em Inglês.
 
-1.  **Introdução:** Apresentação pessoal, localizada em Uberlândia, e links de navegação social.
-2.  **Projetos em Destaque:** Uma galeria visual que exibe projetos selecionados temporariamente.
-3.  **Contato (Footer):** Seção final com informações de contato direto (Email, Whatsapp, GitHub, LinkedIn).
+---
+
+<br>
+
+<div align="center">
+  <small>© 2025 Gabriel Amorim. Todos os direitos reservados.</small>
+</div>
