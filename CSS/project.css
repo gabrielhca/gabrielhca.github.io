@@ -132,6 +132,16 @@
   .project-container li:nth-child(odd) {
     grid-template-areas: "image" "description";
   }
+  .project-container li:nth-child(even) .project-content {
+    text-align: left;
+  }
+  .project-container li:nth-child(even) .project-title {
+    flex-direction: row;
+  }
+  .project-container li:nth-child(even) .project-title svg.svg-icon {
+    margin-right: 15px;
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 768px) {

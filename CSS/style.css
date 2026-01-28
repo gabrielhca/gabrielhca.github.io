@@ -1,7 +1,8 @@
-@import "/CSS/header.css";
-@import "/CSS/global.css";
-@import "/CSS/utility/color.css";
-@import "/CSS/utility/animation.css";
-@import "/CSS/introduction.css";
-@import "/CSS/project.css";
-@import "/CSS/footer.css";
+@import "./header.css";
+@import "./global.css";
+@import "./utility/color.css";
+@import "./utility/animation.css";
+@import "./introduction.css";
+@import "./lab.css";
+@import "./project.css";
+@import "./footer.css";
