@@ -58,6 +58,21 @@
   text-align: right;
 }
 
+.resume-link {
+  display: inline-block;
+  margin-top: 24px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.95rem;
+  color: var(--accent-color);
+  border-bottom: 1px solid var(--accent-color);
+  padding-bottom: 2px;
+  transition: opacity 0.2s ease, border-color 0.2s ease;
+}
+
+.resume-link:hover {
+  opacity: 0.7;
+}
+
 .introduction-img {
   grid-column: 3 / 3;
   justify-self: end;
@@ -150,6 +165,10 @@
   .introduction span {
     text-align: right;
     margin-bottom: 15px;
+  }
+  .resume-link {
+    display: block;
+    text-align: right;
   }
   .decorative {
     gap: 15px;

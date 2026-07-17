@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light">
   <link rel="stylesheet" href="./CSS/style.min.css">
-  <title>Gabriel Amorim &mdash; Ciência Poética</title>
-  <meta name="description" content="Pesquisador em Ciência da Computação. Investigando a interseção entre rigor algorítmico e abstração humana.">
+  <title>Gabriel Amorim &mdash; Cientista da Computação</title>
+  <meta name="description" content="Cientista da Computação. Pesquisa aplicada em visão computacional e redes neurais de grafos.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -28,14 +28,13 @@
       <nav>
         <ul class="header-menu js-menu">
           <li><a href="#Sobre">Sobre</a></li>
-          <li><a href="#Lab">Lab</a></li>
-          <li><a href="#Projetos">Projetos</a></li>
+          <li><a href="#Estudos">Estudos</a></li>
           <li><a href="#Footer">Contato</a></li>
         </ul>
       </nav>
     </div>
   </header>
-  
+
   <div class="language" id="languageButton">
     <div style="display: flex;">
       <a href="index-en.html">
@@ -72,9 +71,10 @@
   <main class="introduction">
     <nav>
       <div class="introductionLayer introduction-local">
-        <h1 class="fadeInDown" data-anime="200">Gabriel Amorim<br>Computação & Ciência Poética</h1>
-        <p class="fadeInDown" data-anime="400">Investigo a tecnologia como uma extensão da capacidade humana de abstração. Busco a essência da <em>"Ciência Poética"</em> de Ada Lovelace: compreender os sistemas lógicos não como fins em si mesmos, mas como pontes para entender a complexidade do mundo. Este é meu laboratório digital — um espaço para documentar experimentos, analisar falhas e construir a base técnica da minha pesquisa.</p>
+        <h1 class="fadeInDown" data-anime="200">Gabriel Amorim<br>Cientista da Computação</h1>
+        <p class="fadeInDown" data-anime="400">Trabalho na fronteira entre lógica computacional e abstração humana — onde sistemas deixam de ser apenas ferramentas e passam a ser formas de pensar. Hoje isso se traduz em pesquisa aplicada: visão computacional, redes neurais, estruturas que aprendem a reconhecer padrão onde antes só havia ruído. Este espaço documenta esse processo — não o produto final, o raciocínio por trás dele.</p>
         <span class="fadeInDown" data-anime="400">Uberlândia, MG, BR.</span>
+        <a class="resume-link fadeInDown" data-anime="500" href="./curriculo-gabriel-amorim.pdf" download>Baixar currículo ↓</a>
       </div>
 
       <section class="decorative fadeInDown" data-anime="600" id="decorative">
@@ -119,85 +119,45 @@
       <img src="/img/perfil-ghca-hover.png" alt="Visualização artística da mente de um programador: caos criativo estabilizado pela lógica.">
     </div>
   </main>
-  
+
   <hr class="divider">
 
   <section class="manifesto js-animation" id="Sobre">
     <div class="content-container">
       <h2>Sobre</h2>
       <p class="manifesto-text">
-        Como estudante de Ciência da Computação, minha jornada é guiada por uma percepção que vai além do código: a busca pela 'Ciência Poética'.
+        Penso em como as coisas se conectam — e em como se conectariam de outro jeito. É esse impulso que orienta minhas escolhas: da pesquisa em visão computacional às estruturas de grafo que uso para modelar relação entre dados. Ada Lovelace chamava isso de ciência poética — a ideia de que computação não é fim, é ponte.
         <br><br>
-        Me sinto atraído por formas abstratas de pensamento — não apenas na matemática, mas em como elas podem criar pontes entre o mundo científico e o metafísico. Inspirado pela visão de <strong>Ada Lovelace</strong>, acredito que a computação não é um fim em si mesma, mas uma ferramenta fundamental para estudar, entender e desenvolver outras ciências.
-        <br><br>
-        Vejo a tecnologia como uma potencialização das habilidades humanas. Meu foco atual (4º período) é construir a base técnica necessária para transformar essa visão abstrata em engenharia real, navegando entre o rigor da lógica e a fluidez da experiência humana.
+        Hoje, essa ponte tem nome: pesquisa aplicada no LIPAI (Laboratório de Processamento e Análise de Imagens), representação estudantil no Colegiado de Computação e um projeto de iniciação científica em redes neurais de grafo, ainda em construção. O resto — o que ainda não está pronto pra ser mostrado — fica registrado aqui, à medida que se firma.
       </p>
-    </div>
-  </section>
-
-  <hr class="divider">
-
-  <section class="lab-notes js-animation" id="Lab">
-    <div class="content-container">
-      <h2>Lab Notes & DevLog</h2>
-      <p class="section-subtitle">O Jardim Digital / Learning in Public</p>
-      <p class="lab-intro-text">
-        Na ciência, o processo de descoberta é tão valioso quanto o resultado final.
-        Este espaço é uma documentação viva da minha maturação técnica. Diferente de um blog de respostas prontas, aqui cultivo perguntas e hipóteses. Algumas ideias são apenas sementes (rascunhos teóricos), outras são estruturas que estão ganhando forma (projetos em andamento). É o registro honesto de como transformo ignorância em engenharia.
-      </p>
-      
-      <div class="garden-grid">
-          <a href="./lab.html" class="card-link">
-            <div class="garden-card seed">
-              <span class="tag seed">🌱 Seed (Rascunho)</span>
-              <h3>Abstração e Metafísica nos Algoritmos</h3>
-              <p>Ensaios e fragmentos filosóficos. Um espaço para teorias abstratas e pensamentos livres sobre onde a lógica matemática intercepta a intuição humana.</p>
-            </div>
-          </a>
-
-          <a href="./lab.html" class="card-link">
-            <div class="garden-card budding">
-              <span class="tag budding">🌿 Budding (Em progresso)</span>
-              <h3>Gerenciando a Entropia de Software</h3>
-              <p>O registro da transformação. Documento meus aprendizados práticos, mudanças de visão e o processo de solidificar o que antes era apenas abstrato.</p>
-            </div>
-          </a>
-
-          <a href="./lab.html" class="card-link">
-            <div class="garden-card evergreen">
-              <span class="tag evergreen">🌳 Evergreen (Consolidado)</span>
-              <h3>Engenharia & Fundamentos</h3>
-              <p>Conhecimento cristalizado. Teorias validadas e artigos técnicos onde transmito, com segurança, a ciência que construí e dominei de fato.</p>
-            </div>
-          </a>
-      </div>
     </div>
   </section>
 
   <hr class="divider" id="Diverder">
 
-  <section class="project" id="Projetos" aria-label="project">
+  <section class="project" id="Estudos" aria-label="estudos">
     <div class="project-container">
-      <h2>Estudos Selecionados</h2>
-      <p>Uma seleção de projetos onde aplico conceitos de engenharia e arquitetura de software. O objetivo não é apenas o software funcional, mas o exercício de decomposição de problemas e a aplicação de boas práticas durante meu processo de aprendizado.</p>
+      <h2>Estudos</h2>
+      <p>Projetos executados e o raciocínio por trás deles. Nem tudo aqui é produto — parte é apenas a pergunta que um projeto deixou em aberto.</p>
       <ul class="project-img fadeInUp js-animation" data-anime="600">
         <li>
-          <a href="https://github.com/gabrielhca/Jogo-de-Truco-em-Java" target="_blank" rel="noopener noreferrer">
-            <img src="/img/jogo-de-truco.png" alt="Jogo de Truco">
+          <!-- TODO: substituir pela captura de tela real do repositório -->
+          <a href="https://github.com/gabrielhca/Classificacao-Felina-CNN" target="_blank" rel="noopener noreferrer">
+            <img src="/img/classificacao-felina.png" alt="Classificação Felina com CNN">
           </a>
           <div class="project-content">
             <div class="project-title">
               <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-icon">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 31C15.469 22.4501 8.54135 15.5287 0 15.5287C8.56041 15.5287 15.5 8.57619 15.5 0C15.5309 8.54988 22.4586 15.4713 31 15.4713C22.4394 15.4713 15.5 22.4238 15.5 31Z" fill="var(--icon-color)"/>
               </svg>
-              <h3>Truco Game (Java)</h3>
+              <h3>Classificação Felina — CNN</h3>
             </div>
-            <span>Design de Software & Refatoração. Transformação de um sistema legado em um Framework de Jogos de Cartas desacoplado. Aplicação estrita de princípios SOLID e Design Patterns (Observer, Strategy) para isolar completamente a regra de negócio da interface gráfica.</span>
+            <span>Rede neural convolucional treinada para reconhecer três gatos próprios e identificar intrusos. Dataset próprio, anotado manualmente. Primeira etapa de um projeto maior de robótica doméstica.</span>
           </div>
         </li>
         <li>
           <a href="https://gabrielhca.github.io/Micelio-Veritas/" target="_blank" rel="noopener noreferrer">
-            <img src="/img/micelio-veritas.png" alt="Micelio Veritas">
+            <img src="/img/micelio-veritas.png" alt="Micélio Veritas">
           </a>
           <div class="project-content">
             <div class="project-title">
@@ -206,21 +166,37 @@
               </svg>
               <h3>Micélio Veritas</h3>
             </div>
-            <span>UX Engineering & Inspiração Natural. Nascido do meu fascínio pelo Reino Fungi, este projeto une rigor técnico (Vanilla JS, sem frameworks) a uma narrativa gastronômica. O objetivo foi traduzir digitalmente o respeito e o cuidado do cultivo biológico em uma experiência gourmet de alta qualidade.</span>
+            <span>Interface nascida do fascínio pelo reino Fungi. Sem frameworks — só JavaScript puro traduzindo o cuidado do cultivo biológico em experiência digital. Eleito o melhor projeto do processo seletivo em que nasceu.</span>
           </div>
         </li>
         <li>
-          <a href="https://github.com/gabrielhca/Gerenciador-de-Tarefas-e-Habitos" target="_blank" rel="noopener noreferrer">
-            <img src="/img/tarefas-habitos.png" alt="Gerenciador de Tarefas e Habitos">
+          <!-- TODO: substituir pela captura de tela real do repositório -->
+          <a href="https://github.com/gabrielhca/Onboarding-LIPAI" target="_blank" rel="noopener noreferrer">
+            <img src="/img/onboarding-lipai.png" alt="Onboarding LIPAI">
           </a>
           <div class="project-content">
             <div class="project-title">
               <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-icon">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 31C15.469 22.4501 8.54135 15.5287 0 15.5287C8.56041 15.5287 15.5 8.57619 15.5 0C15.5309 8.54988 22.4586 15.4713 31 15.4713C22.4394 15.4713 15.5 22.4238 15.5 31Z" fill="var(--icon-color)"/>
               </svg>
-              <h3>Task Manager (Python)</h3>
+              <h3>Onboarding LIPAI</h3>
             </div>
-            <span>Arquitetura MVC & Persistência de Dados. Sistema de produtividade que prioriza a integridade estrutural sobre a visual. Implementa o Repository Pattern para abstração de dados (CSV) e algoritmos de busca otimizados dentro de um ecossistema modular.</span>
+            <span>Registro técnico do início da pesquisa em visão computacional: da manipulação de dados em Pandas às primeiras redes convolucionais em PyTorch. Documentação como método, não como formalidade.</span>
+          </div>
+        </li>
+        <li>
+          <!-- TODO: substituir pela captura de tela real do repositório -->
+          <a href="https://github.com/gabrielhca/Oral-Classification-ConvNeXt-V2" target="_blank" rel="noopener noreferrer">
+            <img src="/img/oral-classification-convnext-v2.png" alt="Oral Classification ConvNeXt V2">
+          </a>
+          <div class="project-content">
+            <div class="project-title">
+              <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-icon">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 31C15.469 22.4501 8.54135 15.5287 0 15.5287C8.56041 15.5287 15.5 8.57619 15.5 0C15.5309 8.54988 22.4586 15.4713 31 15.4713C22.4394 15.4713 15.5 22.4238 15.5 31Z" fill="var(--icon-color)"/>
+              </svg>
+              <h3>Oral Classification — ConvNeXt V2</h3>
+            </div>
+            <span>Avaliação comparativa de arquiteturas ConvNeXt V2 aplicadas à classificação de imagens histológicas. Desenho experimental fatorial, controle de seeds para reprodutibilidade. Trabalho em equipe — modelagem e pipeline de treinamento sob minha responsabilidade.</span>
           </div>
         </li>
       </ul>
@@ -229,7 +205,7 @@
 
   <hr class="divider">
 
-<footer class="footer" id="Footer" aria-label="footer">
+  <footer class="footer" id="Footer" aria-label="footer">
     <div class="footer-container">
       <div class="footer-text-intro">
         <p>Interessado em discutir arquitetura de software, filosofia da computação ou colaborações em open source? Meu laboratório está aberto.</p> 
@@ -279,7 +255,7 @@
     <div class="footer-copyright">
       <small><span class="highlight">©</span> 2026 Gabriel Amorim. Todos os direitos reservados.</small>
     </div>
-  </footer>>
+  </footer>
 
   <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
